@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sprawdzian wiedzy</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="styl.css">
+</head>
+<body>
+<form method="post" name="formularz" action="sprawdzian.php">
+<div id="wstep">
+<div id="wstep2">
+<h1> *** KRÓTKI TEST WIEDZY O INFORMATYCE *** </h1>
+<h2> TEST SKŁADA SIĘ Z 10 PYTAŃ RÓŻNEGO TYPU </h2>
+</div>
+</div>
+<div id="dane">
+<h1>Podaj imię i nazwisko:</h1>
+<input type="text" name="imie">
+<h1>Zaznacz płeć:</h1>
+<p>Kobieta: <input type="radio"name="plec"value="kobieta">
+Mężczyzna: <input type="radio"name="plec"value="mężczyzna"></p>
+</div>
+<!---------------------------- PYTANIA JEDNOKROTNEGO WYBORU ----------------------------------->
+<div id="pytania">
+<p>
+1. Jakiego typu zmienną zadeklarujesz liczbę 2,34? (jedna prawidłowa odpowiedź)</p><p2>
+a) Int <input type="radio"name="odp1"value="a"> 
+b) Float <input type="radio"name="odp1"value="b">
+c) String <input type="radio"name="odp1"value="c">
+d) Fstream <input type="radio"name="odp1"value="d"></p2><br/><br/>
+<hr>
+<p>
+2. Czym jest RAM? (jedna prawidłowa odpowiedź) </p><p2>
+a) Pamięcią stałą <input type="radio"name="odp2"value="a">
+b) Zegarem systemowym <input type="radio"name="odp2"value="b">
+c) Pamięcią operacyjną <input type="radio"name="odp2"value="c">
+d) Jednym z klawiszy <input type="radio"name="odp2"value="d"></p2><br/><br/>
+<hr>
+<p>
+3. Jakiego skrótu klawiszowego użyjesz aby przywrócić cofniętą zmianę? (jedna prawidłowa odpowiedź)</p><p2>
+a) Ctrl + Z <input type="radio"name="odp3"value="a">
+b) Ctrl + Shift + Esc <input type="radio"name="odp3"value="b">
+c) Ctrl + Alt + Delete <input type="radio"name="odp3"value="c">
+d) Ctrl + Shift + Z <input type="radio"name="odp3"value="d"></p2><br/><br/>
+<hr>
+<p>
+4. Która z tych wartości jest najmniejsza? (jedna prawidłowa odpowiedź) </p><p2>
+a) Kilobajt  <input type="radio"name="odp4"value="a">
+b) Terabajt <input type="radio"name="odp4"value="b">
+c) Gigabajt <input type="radio"name="odp4"value="c">
+d) Megabajt <input type="radio"name="odp4"value="d"></p2><br/><br/>
+<hr>
+<p>
+5. Jaki znacznik w języku html odpowiada za kolumnę w tabeli?</p><p2>
+a) TD <input type="radio"name="odp5"value="a">
+b) Table<input type="radio"name="odp5"value="b">
+c) TH <input type="radio"name="odp5"value="c">
+d) TR <input type="radio"name="odp5"value="d"></p2><br/><br/>
+<hr>
+<p>
+<!---------------------------- PYTANIA DO WPISANIA ----------------------------------->
+<p>
+6. Pewna liczba w systemie binarnym to 010, zapisz, jaka to liczba w systemie dziesiętnym:</p><p2>
+<input type="text" name="odp6"></p2><br/><br/>
+<hr>
+<p>
+7. Zadeklarowano 10 elementową tablicę - tab, jak odwołać się do pierwszego elementu tej tablicy?</p><p2>
+<input type="text" name="odp7"></p2><br/><br/>
+<!---------------------------- PYTANIA WIELOKROTNEGO WYBORU ----------------------------------->
+<hr>
+<p>
+8. Wybierz dwie odpowiedzi, które NIE służą do wykonania pętli </p><p2>
+<select name="odp8[]"multiple="multiple"style="width:200px;height:80px;border-radius:5px;color:#66c9d4;font-size:20px;">
+<option value='a'>for </option>
+<option value='b'>cout</option>
+<option value='c'>cin</option>
+<option value='d'>do ... while</option>
+</select>
+</p2><br/><br/>
+<hr>
+<p>
+9. Wybierz wszystkie pogramy służące do obróbki grafiki: </p><p2>
+<select name="odp9[]"multiple="multiple"style="width:200px;height:80px;border-radius:5px;color:#66c9d4;font-size:20px;">
+<option value='1'>Gimp</option>
+<option value='2'>Adobe Photoshop</option>
+<option value='3'>Notepad++</option>
+<option value='4'>Microsoft teams</option>
+</select>
+</p2><br/><br/>
+<hr>
+<!---------------------------- PYTANIE PRAWDA/FAŁSZ ----------------------------------->
+<p>
+10. Piksel to najmniejszy element obrazu wyświetlany na monitorze </p><p2>
+Prawda  <input type="radio"name="odp10"value="prawda">
+Fałsz <input type="radio"name="odp10"value="falsz"></p2></div>
+<input type="submit" value="odeślij odpowiedzi">
+</form>
+</body>
+</html>

@@ -1,0 +1,166 @@
+body
+{
+margin:0;
+padding:0;
+}
+p
+{
+	margin-left:20px;
+	font-size:20px;
+	color:#e6a5c9;
+	font-family:sans-serif;
+	font-weight: normal;
+}
+h1
+{
+	margin-top:0;
+	padding:10px;
+	font-weight: normal;
+	margin-bottom:0px;
+	text-align:center;
+	font-size:60px;
+	color:#f5cee4;
+	font-family: Fantasy;
+}
+h2
+{
+	margin-top:0;
+	padding:10px;
+	font-weight: normal;
+	margin-bottom:0px;
+	text-align:center;
+	font-size:60px;
+	color:#b995db;
+	font-family: Fantasy;
+}
+#wstep h1
+{
+	font-weight: normal;
+	padding:10px;
+	margin-bottom:0px;
+	text-align:center;
+	font-size:60px;
+	color:#f5cee4;
+	font-family: Fantasy;
+}
+h3
+{
+	margin-top:0;
+	padding:10px;
+	font-weight: normal;
+	margin-bottom:0px;
+	text-align:center;
+	font-size:60px;
+	color:#66c9d4;
+	font-family: Fantasy;
+}
+img
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#wstep h2
+{
+	font-weight: normal;
+	font-family: Fantasy;
+	margin-top:0px;
+	text-align:center;
+	font-size:40px;
+	color:#f5cee4;
+}
+#wstep
+{
+	height:155px;
+	width:100%;
+	background-color:#66c9d4;
+	margin-top:0px;
+	maegin-left:0px;
+}
+#dane
+{
+	height:180px;
+	width:100%;
+	background-color:#f5cee4;
+	margin-top:0px;
+	maegin-left:0px;
+	text-align:center;
+}
+#dane h1
+{
+	font-weight: normal;
+	margin-top:0px;
+	margin-bottom:0px;
+	font-size:35px;
+	color:#5abcc7;
+	font-family: Fantasy, Copperplate;
+	text-align:center;
+	font-size:30px;
+}
+#dane p
+{
+	margin-top:0px;
+	margin-bottom:1px;
+	font-size:24px;
+	color:#5abcc7;
+	font-family: Fantasy, Copperplate;
+}
+#pytania
+{
+	align:center;
+	width:65%;
+	height:1250px;
+	margin:25px;
+	border-top:dotted 8px #f2eb8d;
+    border-bottom:dotted 8px #f2eb8d;
+	border-left:dotted 8px #f2eb8d;
+    border-right:dotted 8px #f2eb8d;
+}
+#pytania p
+{
+	margin-left:20px;
+	margin-top:10px;
+	width:65%;
+	font-size:20px;
+	width:95%;
+	color:#b995db;
+	font-family:sans-serif;
+	font-weight: bold;
+}
+#pytania p2
+{
+	margin-left:25px;
+	margin-bottom:10px;
+	font-size:20px;
+	color:#e6a5c9;
+	font-family:sans-serif;
+	font-weight: normal;
+}
+hr
+{
+	border-top:dotted 8px #f2eb8d;
+}
+input[type=submit] 
+{
+	width:20%;
+	font-size:20px;
+	color:#ffffff;
+    margin-left:50px; 
+	margin-bottom:50px;
+    background-color:#66c9d4; 
+    border:0 none;
+    cursor:pointer;
+    border-radius: 5px; 
+}
+input[type=text] 
+{
+	border:solid 1px #66c9d4;
+	font-size:20px;
+	color:#66c9d4;
+    cursor:text;
+    border-radius: 5px; 
+}
+input[type=radio] 
+{
+    cursor:pointer;
+}
